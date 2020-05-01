@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	margin:0px;
+}
+.main {
+	height:70px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:#D80000;
+	}
+#login{
+	color:white;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:right;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:10px;
+    padding-right:10px;
+    }
+.buttons{
+	color:white;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-right:10px;
+    }
+.titles{
+	color:black;
+    font-size:15px;
+    font-weight:bold;
+}
+.thumbnail{
+	width: 150px;
+    padding-bottom:30px;
+}
+.footer {
+	position:fixed;
+    bottom:0px;
+    width:100%;
+    background-color:grey;
+    color:white;
+}
+.paragraph{
+	margin-left:30px;
+    margin-right:200px;
+    font-size:12px;
+}
+</style>
+</head>
+<body>
+<div class="main">
+	<p style="font-weight:bold;font-size:30px;color:#F5F5F5;padding-left:20px;margin-top:15px;font-family:Arial, Helvetica, sans-serif;">5280 Landmarks</p>
+	<p class="buttons" style="padding-top:10px;">Login</p>
+</div>
+
+<div class = "main" style="color:white;background-color:grey;height:50px;display:flex;justify-content:flex-end;">
+	<p class="buttons">Building</p>
+	<p class="buttons">Art</p>
+	<p class="buttons">Featured</p>
+</div>
+
+
+<div style="display:flex;justify-content:space-between;">
+
+<img style="margin-left:20px;margin-top:20px;"src="1.jpg" alt="Denver Art Museum">
+
+	<div style="position:absolute;margin-left:780px;">
+		<p class="titles"> Larimer Square</p>
+		<img class="thumbnail" style="display:flex;" src="2.jpg" alt="Larimer Square" >
+    	<p class="titles"> Millenium Bride </p>
+		<img class="thumbnail" src="5.jpg" alt="Millenium Bridge">
+    	<p class="titles"> Molly Brown House </p>
+		<img class="thumbnail" src="6.jpg" alt="Molly Brown House">
+	</div>
+</div>
+<h4 style="margin-left:30px;font-family:Arial, Helvetica, sans-serif;">Denver Art Museum</h4>
+<p class="paragraph">Lorem ipsum dolor sit amet, quis idque munere est ex. Eos id soluta meliore menandri, sed ex graeci prompta sapientem. Cum in verterem partiendo, quod partiendo principes vix et. Ne eam virtute abhorreant. At qui doming nemore mediocritatem, ei pri bonorum blandit, vim elitr recusabo salutatus eu.
+<p class="paragraph">
+Mea adhuc persecuti in, dolorum mentitum ullamcorper his ut. Graeci scriptorem cum ea, an ignota signiferumque nec. No dicunt sanctus moderatius sed, meliore inermis ei mea. Utinam impedit maiestatis sea ad, quis efficiendi eu mel, ea solet placerat phaedrum vis. Et vix causae aliquam, commodo blandit imperdiet ex his.
+</p>
+<p class="paragraph">
+Duo an eleifend omittantur, te sint civibus recusabo eos. An ius corpora definiebas cotidieque. Eu pri reque sapientem contentiones, fierent conclusionemque mei in. Saepe veniam ne mei, ut facilisi omittantur nec.
+</p>
+<p class="paragraph">
+Nam ad quas consul salutandi, sea ad verterem quaestio. Mei ea quot dictas. Eam choro eloquentiam eu, vim cu facete scriptorem. Mel at latine veritus. </p>
+</p>
+<div class="footer">
+	<p style="margin-left:20px;margin-right:20px;color:white;font-size:12px;">Alia utinam maiorum pro te, eum ex sonet putent discere. Mea cu possit forensibus comprehensam. Mel te primis commodo, nibh labore nostrum ei mel. Ex vix adolescens suscipiantur, malorum iuvaret usu id. At mea lobortis pertinacia, scripta sententiae et mei, sumo partem pro ex. Nam movet facete ex, eos rebum nulla qualisque ea, vis malis clita efficiantur ut. At vel lorem paulo soluta, ancillae quaestio no quo, id vim blandit voluptatum.</p>
+</div>
+</html>
